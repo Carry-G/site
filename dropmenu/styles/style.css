@@ -58,7 +58,7 @@ body {
   transform: scale(1);
 }
 .button:hover {
-  transform: scale(1.15) ;
+  transform: scale(1.15);
 }
 .header__button_close {
   background-image: url("../image/icons/burger.svg");
@@ -135,8 +135,8 @@ body {
 .button-profile {
   background: url("../image/icons/profile.svg");
 }
-.footer__contacts-info{
-  display:flex;
+.footer__contacts-info {
+  display: flex;
   flex-direction: column;
 }
 .email {
