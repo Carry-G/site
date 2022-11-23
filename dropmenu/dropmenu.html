@@ -11,64 +11,65 @@
   <body>
     <div class="wrapp">
       <header class="header">
-        <div class="container__header">
-          <button class="header__menu-berger button"></button>
+        <div class="header__container">
+          <button class="header__button_close button" type="button"  title="закрыть" aria-label="закрыть меню"></button>
           <div class="header__logo logo">
             <img src="./image/Group.svg" alt="logo" class="logo__image" />
           </div>
-          <button class="header__button-serch button"></button>
+          <button class="header__button-serch button" type="button" title="поиск" aria-label="поиск по сайту" ></button>
         </div>
       </header>
       <main class="main">
         <div class="main__container">
-          <nav class="main__menu menu"></nav>
-          <ul class="menu__items">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Ремонт техники</a>
+          <nav class="main__menu menu">
+            <ul class="menu__items">
+              <li class="menu__item">
+              <a  class="menu__link" aria-label="Перейти к ремонту техники" href="#" >Ремонт техники</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Услуги и сервисы</a>
+              <a class="menu__link" aria-label="Перейти к услугам и сервисам" href="#" >Услуги и сервисы</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Корпоративным клиентам</a>
+              <a  class="menu__link" aria-label="Для корпаротивных клиентов" href="#">Корпоративным клиентам</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Продавцам техники</a>
+              <a  class="menu__link" aria-label="Для продавцов техники" href="#">Продавцам техники</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Партнерам</a>
+              <a  class="menu__link" aria-label="Переход для партнеров" href="#">Партнерам</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Производителям</a>
+              <a  class="menu__link" aria-label="Переход для производителей" href="#">Производителям</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Наши сервисные центры</a>
+              <a  class="menu__link" aria-label="Перейти к нашим сервисным центрам" href="#">Наши сервисные центры</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Контакты</a>
+              <a  class="menu__link" aria-label="Перейти к нашим контактам" href="#">Контакты</a>
             </li>
           </ul>
+        </nav>
         </div>
       </main>
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__contacts-buttons">
-            <button class="button button-call"></button>
-            <button class="button button-chat"></button>
-            <button class="button button-profile"></button>
+            <button class="button button-call" type="button" title="звонок" aria-label="Заказать обратный звонок"></button>
+            <button class="button button-chat" type="button" title="чат" aria-label="Начать чат с менеджером"></button>
+            <button class="button button-profile" type="button" title="профиль" aria-label="Перейти к своему профилю"></button>
           </div>
           <div class="footer__contacts-info">
-            <p class="email">mail@cps.com</p>
-            <p class="number">8 800 890 8900</p>
+            <a class="email"  href="mailto:email@cps.com" aria-label="Связать по почте">mail@cps.com</a>
+            <a class="number" href="tel:88008908900" aria-label="Связаться по телефону">8 800 890 8900</a>
             <ul class="change-langs">
               <li class="change-lang">
-                <a href="#" class="change-link">RU</a>
+                <a href="#" class="change-link" aria-label="Изменить язык на русский" >RU</a>
               </li>
               <li class="change-lang">
-                <a href="#" class="change-link">EN</a>
+                <a href="#" class="change-link" aria-label="Изменить язык на англиский" >EN</a>
               </li>
               <li class="change-lang">
-                <a href="#" class="change-link">CH</a>
+                <a href="#" class="change-link" aria-label="Изменить язык на Chamorro" >CH</a>
               </li>
             </ul>
           </div>

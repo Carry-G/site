@@ -44,7 +44,7 @@ body {
     16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 /* -------------header------------------------------ */
-.container__header {
+.header__container {
   margin-bottom: 3.2rem;
   display: flex;
   align-items: center;
@@ -58,10 +58,9 @@ body {
   transform: scale(1);
 }
 .button:hover {
-  transform: scale(1.07);
-  box-shadow: 0 0 5px 0 black;
+  transform: scale(1.15) ;
 }
-.header__menu-berger {
+.header__button_close {
   background-image: url("../image/icons/burger.svg");
   margin-right: 17px;
 }
@@ -136,11 +135,17 @@ body {
 .button-profile {
   background: url("../image/icons/profile.svg");
 }
+.footer__contacts-info{
+  display:flex;
+  flex-direction: column;
+}
 .email {
+  color: #1b1c21;
   margin-bottom: 0.9em;
   font-weight: 600;
 }
 .number {
+  color: #1b1c21;
   margin-bottom: 2.5em;
   font-size: 1.5rem;
   font-weight: 800;
