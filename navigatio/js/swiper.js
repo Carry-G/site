@@ -5,7 +5,7 @@ let mySwiper;
 function mobileSlider() {
   if (window.innerWidth < 768 && slider.dataset.mobile == "false") {
     mySwiper = new Swiper(slider, {
-      slidesPerView: 'auto',
+      slidesPerView: "auto",
       spaceBetween: 16,
       slideClass: "services__card",
       pagination: {
@@ -13,7 +13,7 @@ function mobileSlider() {
         type: "bullets",
         clickable: true,
       },
-      slideToClickedSlide: true
+      slideToClickedSlide: true,
     });
     slider.dataset.mobile = "true";
   }
@@ -23,15 +23,11 @@ function mobileSlider() {
 
     if (slider.classList.contains("swiper-initialized")) {
       mySwiper.destroy();
-
     }
   }
 }
-// mobileSlider();
+mobileSlider();
 
 window.addEventListener("resize", () => {
   mobileSlider();
 });
-
-
-
