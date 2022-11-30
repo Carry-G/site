@@ -52,7 +52,6 @@ body {
   flex-wrap: nowrap;
   padding-bottom: 2em;
   position: relative;
-  /* height: 100%; */
 }
 .slider-container::after {
   content: " ";
